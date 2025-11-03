@@ -1,0 +1,16 @@
+# Netlify ignore file
+# Exclude files that don't need to be uploaded
+
+node_modules/
+.temp/
+html/
+.git/
+.gitignore
+*.md
+gulpfile.js
+package-lock.json
+.vscode/
+.idea/
+*.log
+.DS_Store
+

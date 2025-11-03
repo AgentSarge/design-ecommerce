@@ -1,0 +1,9 @@
+[build]
+  # Build command - runs the production build task
+  command = "npm run build"
+  # Publish directory - where Netlify will serve files from
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+

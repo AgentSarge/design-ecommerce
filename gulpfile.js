@@ -126,7 +126,8 @@ gulp.task('vendor', function() {
 
 gulp.task('serve', gulp.series('scss-tmp', 'html', 'index', 'assets', 'vendor', function() {
     browserSync.init({
-        server: paths.temp.base
+        server: paths.temp.base,
+        port: 4000
     });
 
     gulp.watch([paths.src.scss + '/app.scss'], gulp.series('scss'));
